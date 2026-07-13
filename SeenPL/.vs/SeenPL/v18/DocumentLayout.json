@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GU\\Graudation\\SeenPL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|d:\\gu\\graudation\\seenpl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|d:\\gu\\graudation\\seenpl\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|solutionrelative:controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF5C7EF-BE9B-FB76-796E-924599D2C602}|..\\SeenCL\\SeenCL.csproj|d:\\gu\\graudation\\seencl\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC721680-CD6A-3AA2-3411-A712DC8115F9}|..\\SeenDAL\\SeenDAL.csproj|d:\\gu\\graudation\\seendal\\seendal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|d:\\gu\\graudation\\seenpl\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5767C626-282F-3547-9EBA-057EB12A994A}|..\\SeenBLL\\SeenBLL.csproj|d:\\gu\\graudation\\seenbll\\seenbll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|d:\\gu\\graudation\\seenpl\\seenpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|solutionrelative:seenpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AF5C7EF-BE9B-FB76-796E-924599D2C602}|..\\SeenCL\\SeenCL.csproj|d:\\gu\\graudation\\seencl\\seencl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenPL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAswHgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T16:54:53.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoachController.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\CoachController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachController.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenPL\\Controllers\\CoachController.cs",
+              "RelativeToolTip": "Controllers\\CoachController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T11:37:40.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenCL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\SeenCL\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenCL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\SeenCL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T11:35:35.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenPL\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-03T00:13:17.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeenPL.csproj",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\SeenPL.csproj",
+              "RelativeDocumentMoniker": "SeenPL.csproj",
+              "ToolTip": "D:\\GU\\Graudation\\SeenPL\\SeenPL.csproj",
+              "RelativeToolTip": "SeenPL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T00:12:05.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeenDAL.csproj",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenDAL\\SeenDAL.csproj",
+              "RelativeDocumentMoniker": "..\\SeenDAL\\SeenDAL.csproj",
+              "ToolTip": "D:\\GU\\Graudation\\SeenDAL\\SeenDAL.csproj",
+              "RelativeToolTip": "..\\SeenDAL\\SeenDAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T00:11:47.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeenBLL.csproj",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenBLL\\SeenBLL.csproj",
+              "RelativeDocumentMoniker": "..\\SeenBLL\\SeenBLL.csproj",
+              "ToolTip": "D:\\GU\\Graudation\\SeenBLL\\SeenBLL.csproj",
+              "RelativeToolTip": "..\\SeenBLL\\SeenBLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T00:11:43.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeenCL.csproj",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenCL\\SeenCL.csproj",
+              "RelativeDocumentMoniker": "..\\SeenCL\\SeenCL.csproj",
+              "ToolTip": "D:\\GU\\Graudation\\SeenCL\\SeenCL.csproj",
+              "RelativeToolTip": "..\\SeenCL\\SeenCL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-03T00:11:22.943Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

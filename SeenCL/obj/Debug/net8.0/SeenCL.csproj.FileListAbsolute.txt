@@ -1,0 +1,11 @@
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.GeneratedMSBuildEditorConfig.editorconfig
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.AssemblyInfoInputs.cache
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.AssemblyInfo.cs
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.csproj.CoreCompileInputs.cache
+D:\GU\Graudation\SeenCL\bin\Debug\net8.0\SeenCL.deps.json
+D:\GU\Graudation\SeenCL\bin\Debug\net8.0\SeenCL.dll
+D:\GU\Graudation\SeenCL\bin\Debug\net8.0\SeenCL.pdb
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.dll
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\refint\SeenCL.dll
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.pdb
+D:\GU\Graudation\SeenCL\obj\Debug\net8.0\ref\SeenCL.dll

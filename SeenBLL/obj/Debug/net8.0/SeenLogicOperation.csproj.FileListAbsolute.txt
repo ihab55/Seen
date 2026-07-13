@@ -1,0 +1,16 @@
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.csproj.AssemblyReference.cache
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.GeneratedMSBuildEditorConfig.editorconfig
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.AssemblyInfoInputs.cache
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.AssemblyInfo.cs
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.csproj.CoreCompileInputs.cache
+D:\GU\Graudation\SeenLogicOperation\bin\Debug\net8.0\SeenLogicOperation.deps.json
+D:\GU\Graudation\SeenLogicOperation\bin\Debug\net8.0\SeenLogicOperation.dll
+D:\GU\Graudation\SeenLogicOperation\bin\Debug\net8.0\SeenLogicOperation.pdb
+D:\GU\Graudation\SeenLogicOperation\bin\Debug\net8.0\SeenDataAccess.dll
+D:\GU\Graudation\SeenLogicOperation\bin\Debug\net8.0\SeenDataAccess.pdb
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogi.5E95FA59.Up2Date
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.dll
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\refint\SeenLogicOperation.dll
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.pdb
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\ref\SeenLogicOperation.dll
+D:\GU\Graudation\SeenLogicOperation\obj\Debug\net8.0\SeenLogicOperation.sourcelink.json

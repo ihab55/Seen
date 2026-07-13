@@ -1,0 +1,13 @@
+D:\GU\Graudation\SeenDataAccess\bin\Debug\net8.0\SeenDataAccess.deps.json
+D:\GU\Graudation\SeenDataAccess\bin\Debug\net8.0\SeenDataAccess.dll
+D:\GU\Graudation\SeenDataAccess\bin\Debug\net8.0\SeenDataAccess.pdb
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.csproj.AssemblyReference.cache
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.AssemblyInfoInputs.cache
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.AssemblyInfo.cs
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.csproj.CoreCompileInputs.cache
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.dll
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\refint\SeenDataAccess.dll
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.pdb
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\ref\SeenDataAccess.dll
+D:\GU\Graudation\SeenDataAccess\obj\Debug\net8.0\SeenDataAccess.sourcelink.json
