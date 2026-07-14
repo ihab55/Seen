@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using SeenCL.DTOs;
 using SeenCL.Services;
 using System.Collections.Generic;
@@ -26,6 +27,7 @@ namespace SeenAPI.Controllers
         /// WHAT: Assigns a new training program to an athlete.
         /// </summary>
         [HttpPost("Create")]
+        [Authorize(Roles = "Coach,Admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<TrainingProgramDTO>> Create([FromBody] TrainingProgramDTO dto)

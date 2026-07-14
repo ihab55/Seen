@@ -3,6 +3,15 @@
   "WorkspaceRootPath": "D:\\GU\\Graudation\\SeenPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5767C626-282F-3547-9EBA-057EB12A994A}|..\\SeenBLL\\SeenBLL.csproj|d:\\gu\\graudation\\seenbll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC721680-CD6A-3AA2-3411-A712DC8115F9}|..\\SeenDAL\\SeenDAL.csproj|d:\\gu\\graudation\\seendal\\data\\refreshtoken_setup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC721680-CD6A-3AA2-3411-A712DC8115F9}|..\\SeenDAL\\SeenDAL.csproj|d:\\gu\\graudation\\seendal\\infrastructure\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|d:\\gu\\graudation\\seenpl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33D8E9AA-CB73-BBB1-AB5C-36442DC5F751}|SeenPL.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,6 +38,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AF5C7EF-BE9B-FB76-796E-924599D2C602}|..\\SeenCL\\SeenCL.csproj|d:\\gu\\graudation\\seencl\\seencl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC721680-CD6A-3AA2-3411-A712DC8115F9}|..\\SeenDAL\\SeenDAL.csproj|d:\\gu\\graudation\\seendal\\data\\refreshtoken_setup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +50,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenBLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\SeenBLL\\Services\\AuthService.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenBLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\SeenBLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T00:35:59.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RefreshToken_Setup.sql ",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenDAL\\Data\\RefreshToken_Setup.sql",
+              "RelativeDocumentMoniker": "..\\SeenDAL\\Data\\RefreshToken_Setup.sql",
+              "ToolTip": "D:\\GU\\Graudation\\SeenDAL\\Data\\RefreshToken_Setup.sql",
+              "RelativeToolTip": "..\\SeenDAL\\Data\\RefreshToken_Setup.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-07-14T00:35:03.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\GU\\Graudation\\SeenDAL\\Infrastructure\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "..\\SeenDAL\\Infrastructure\\DatabaseHelper.cs",
+              "ToolTip": "D:\\GU\\Graudation\\SeenDAL\\Infrastructure\\DatabaseHelper.cs",
+              "RelativeToolTip": "..\\SeenDAL\\Infrastructure\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T00:34:43.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "D:\\GU\\Graudation\\SeenPL\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAIwHgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T16:54:53.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CoachController.cs",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\CoachController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoachController.cs",
@@ -68,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenCL\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\SeenCL\\Interfaces\\IRepository.cs",
@@ -80,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -92,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "SeenPL.csproj",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenPL\\SeenPL.csproj",
               "RelativeDocumentMoniker": "SeenPL.csproj",
@@ -104,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "SeenDAL.csproj",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenDAL\\SeenDAL.csproj",
               "RelativeDocumentMoniker": "..\\SeenDAL\\SeenDAL.csproj",
@@ -116,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SeenBLL.csproj",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenBLL\\SeenBLL.csproj",
               "RelativeDocumentMoniker": "..\\SeenBLL\\SeenBLL.csproj",
@@ -128,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "SeenCL.csproj",
               "DocumentMoniker": "D:\\GU\\Graudation\\SeenCL\\SeenCL.csproj",
               "RelativeDocumentMoniker": "..\\SeenCL\\SeenCL.csproj",

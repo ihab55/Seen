@@ -33,3 +33,4 @@ D:\GU\Graudation\SeenBLL\bin\Debug\net8.0\SeenDAL.pdb
 D:\GU\Graudation\SeenBLL\bin\Debug\net8.0\SeenCL.pdb
 D:\GU\Graudation\SeenBLL\obj\Debug\net8.0\SeenBLL.csproj.Up2Date
 D:\GU\Graudation\SeenBLL\obj\Debug\net8.0\ref\SeenBLL.dll
+d:\GU\Graudation\SeenBLL\obj\Debug\net8.0\SeenBLL.sourcelink.json

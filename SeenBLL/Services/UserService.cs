@@ -1,9 +1,10 @@
+using BCrypt.Net;
+using Microsoft.Extensions.Configuration;
 using SeenCL.Domain.Entities;
 using SeenCL.DTOs;
 using SeenCL.Repositories;
 using SeenCL.Services;
 using SeenCL.Utilities;
-using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,14 +58,21 @@ namespace SeenBLL.Services
             return user;
         }
 
+        /// <remarks>
+        /// NOTE: Authentication (JWT + token issuance) has been moved to AuthService.LoginAsync.
+        /// This method remains for internal use (e.g., profile fetch after auth) but does NOT
+        /// issue tokens. Prefer IAuthService.LoginAsync for actual login flows.
+        /// </remarks>
         public async Task<UserResponseDTO?> LoginAsync(UserLoginDTO loginDto)
         {
             var user = await Task.FromResult(_userRepository.GetByEmailOrUsername(loginDto.UserName));
-            if (user != null && user.PasswordHash == loginDto.Password)
-            {
-                return MapToResponseDTO(user);
-            }
-            return null;
+            if (user == null) return null;
+
+            // Use BCrypt.Verify to safely compare the plain-text password against the stored hash
+            if (!BCrypt.Net.BCrypt.Verify(loginDto.Password, user.PasswordHash))
+                return null;
+
+            return MapToResponseDTO(user);
         }
 
         public async Task<bool> AssignDeviceAsync(int userId, int deviceId)
@@ -99,16 +107,19 @@ namespace SeenBLL.Services
 
         public async Task<int> CreateUserAsync(UserCreateDTO dto)
         {
+            // Hash the password with BCrypt before storing — NEVER store plain-text passwords
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password);
+
             var user = new User
             {
-                FirstName = dto.FirstName,
-                LastName = dto.LastName,
-                UserName = dto.UserName,
-                Email = dto.Email,
-                PasswordHash = dto.Password,
-                CreatedAt = DateTime.UtcNow,
+                FirstName          = dto.FirstName,
+                LastName           = dto.LastName,
+                UserName           = dto.UserName,
+                Email              = dto.Email,
+                PasswordHash       = passwordHash,
+                CreatedAt          = DateTime.UtcNow,
                 IsProfileCompleted = false,
-                IsDeleted = false
+                IsDeleted          = false
             };
             return await Task.FromResult(_userRepository.Create(user));
         }

@@ -5,6 +5,7 @@ namespace SeenCL.DTOs
         public int AdminID { get; set; }
         public string AdminName { get; set; }
         public string Email { get; set; }
+        public string? Password { get; set; }
         public string PasswordHash { get; set; }
         public DateTime CreatedAt { get; set; }
         public bool IsActive { get; set; }

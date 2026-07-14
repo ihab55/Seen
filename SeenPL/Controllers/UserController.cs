@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using SeenCL.Domain.Entities;
 using SeenCL.Services;
 using SeenCL.DTOs;
@@ -28,6 +29,7 @@ namespace SeenPL.Controllers
         /// WHAT: Returns a full list of user details formatted for administration.
         /// </summary>
         [HttpGet("All", Name = "GetAllUsers")]
+        [Authorize(Roles = "Admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<IEnumerable<UserAdminResponseDTO>>> GetAll()
@@ -43,6 +45,7 @@ namespace SeenPL.Controllers
         /// WHAT: Returns user profile details. NOTE: Does not load heavy image binary data to optimize performance.
         /// </summary>
         [HttpGet("{id:int}", Name = "GetById")]
+        [Authorize(Policy = "OwnerOrAdmin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -115,6 +118,7 @@ namespace SeenPL.Controllers
         /// NOTE: Uses [FromForm] to support multipart/form-data for image uploads from the mobile app.
         /// </summary>
         [HttpPut("{id:int}")]
+        [Authorize(Policy = "OwnerOrAdmin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -137,6 +141,7 @@ namespace SeenPL.Controllers
         /// WHAT: Marks a user as deleted without removing them from the physical database.
         /// </summary>
         [HttpDelete("{id:int}")]
+        [Authorize(Policy = "OwnerOrAdmin")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult> Delete(int id)

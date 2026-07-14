@@ -9,3 +9,4 @@ D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.dll
 D:\GU\Graudation\SeenCL\obj\Debug\net8.0\refint\SeenCL.dll
 D:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.pdb
 D:\GU\Graudation\SeenCL\obj\Debug\net8.0\ref\SeenCL.dll
+d:\GU\Graudation\SeenCL\obj\Debug\net8.0\SeenCL.sourcelink.json

@@ -97,4 +97,7 @@ d:\GU\Graudation\SeenPL\obj\Debug\net8.0\refint\SeenPL.dll
 d:\GU\Graudation\SeenPL\obj\Debug\net8.0\SeenPL.pdb
 d:\GU\Graudation\SeenPL\obj\Debug\net8.0\SeenPL.genruntimeconfig.cache
 d:\GU\Graudation\SeenPL\obj\Debug\net8.0\ref\SeenPL.dll
+d:\GU\Graudation\SeenPL\obj\Debug\net8.0\SeenPL.sourcelink.json
+d:\GU\Graudation\SeenPL\bin\Debug\net8.0\BCrypt.Net-Next.dll
+d:\GU\Graudation\SeenPL\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\GU\Graudation\SeenPL\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

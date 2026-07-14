@@ -28,6 +28,7 @@ namespace SeenAPI.Controllers
         /// WHAT: Creates a new sports team.
         /// </summary>
         [HttpPost("Create")]
+        [Authorize(Roles = "Coach,Admin")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public async Task<ActionResult<TeamDTO>> Create([FromBody] TeamCreateDTO dto)

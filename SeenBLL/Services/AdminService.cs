@@ -1,3 +1,4 @@
+using BCrypt.Net;
 using SeenCL.Domain.Entities;
 using SeenCL.DTOs;
 using SeenCL.Repositories;
@@ -18,10 +19,18 @@ namespace SeenBLL.Services
             _repository = repository;
         }
 
+        /// <remarks>
+        /// NOTE: Token issuance is handled by IAuthService.AdminLoginAsync.
+        /// This method only validates credentials and returns admin info.
+        /// </remarks>
         public async Task<AdminResponseDTO?> LoginAsync(AdminLoginRequestDTO request)
         {
             var admin = await Task.FromResult(_repository.GetByEmail(request.Email));
-            if (admin == null || admin.PasswordHash != request.Password) return null; // Simple check for now
+            if (admin == null) return null;
+
+            // BCrypt verification
+            if (!BCrypt.Net.BCrypt.Verify(request.Password, admin.PasswordHash)) return null;
+
             return MapToResponseDTO(admin);
         }
 
@@ -29,11 +38,12 @@ namespace SeenBLL.Services
         {
             var admin = new Admin
             {
-                AdminName = dto.AdminName,
-                Email = dto.Email,
-                PasswordHash = "InitialPassword", // Should be hashed
-                CreatedAt = DateTime.UtcNow,
-                IsActive = true
+                AdminName    = dto.AdminName,
+                Email        = dto.Email,
+                // Hash the initial password with BCrypt before storing
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password ?? "ChangeMe123!"),
+                CreatedAt    = DateTime.UtcNow,
+                IsActive     = true
             };
             return await Task.FromResult(_repository.Create(admin));
         }

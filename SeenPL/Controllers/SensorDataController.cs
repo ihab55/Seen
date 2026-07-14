@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using SeenCL.DTOs;
 using SeenCL.Services;
 using System.Collections.Generic;
@@ -40,6 +41,7 @@ namespace SeenAPI.Controllers
         /// WHAT: Retrieves historical data for a specific sensor.
         /// </summary>
         [HttpGet("sensor/{sensorId:int}")]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IEnumerable<SensorDataDTO>>> GetBySensor(int sensorId)
         {
